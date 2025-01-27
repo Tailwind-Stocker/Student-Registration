@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="icon" href="Form image.png" type="image/x-icon">
+</head>
+
+<body>
+<section> <span></span> <span></span> <span>
+        </span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span>
+        </span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span>
+        </span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span>
+        </span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span>
+        </span><span></span><span></span><span></span><span></span>
+</section>
+
+<div class="card login box" id="login">
+    <h2><i class="fas fa-key"></i> Sign In</h2>
+    <form action="login" method="post">
+        <div class="form-group">
+            <input type="text" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input type="password" name="password" placeholder="Password">
+        </div>
+        <input type="submit" name="" value="Login">
+    </form>
+    <p class="link-login">
+        Don t have account yet?
+        <span class="switchText" onclick="switchToSignUp()"> Sign up!</span>
+    </p>
+</div>
+
+<div class="card signup box" id="signup">
+    <h2><i class=" fas fa-user"></i> New account</h2>
+    <form action="register" method="post">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input type="password" name="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <input type="text" name="branch" placeholder="Branch">
+        </div>
+        <div class="form-group">
+            <input type="text" name="mobile" placeholder="Mobile no.">
+        </div>
+        <div class="form-group">
+            <input type="text" name="address" placeholder="Address">
+        </div>
+        <input type="submit" name="" value="Login">
+    </form>
+    <p class="link-signUp">
+        Already had an account?
+        <span class="switchText" onclick="switchToLogin()"> Sign in! </span>
+    </p>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
